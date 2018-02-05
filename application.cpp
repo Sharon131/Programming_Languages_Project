@@ -134,7 +134,7 @@ matrix* GetTextMatrix(char matrix_s[MAXSIZE], int w, int k, HWND hwnd)
 				//matrix_result[index + 1] = '\0';
 				index++;
 			}
-			double* aux=str_double(number_s, hwnd);
+			double* aux=str_double(number_s);
 			if (aux == NULL)
 			{
 				MessageBox(hwnd, "NULL.", "Uwaga!", MB_ICONWARNING | MB_OK);
