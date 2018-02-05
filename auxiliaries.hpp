@@ -21,9 +21,9 @@ void move(double**, int, int, int);				//odpowiednik funkcji dosun z klasy, do z
 												//Ponadto, zaprzyjaźniona funkcja z klasą, by był dostęp do macierzy, czy przez read?
 void swap_rows(double**, int, int, int, int);
 bool zeros(double**,int, int, int);
-int char_int(char, HWND);					//pomocnicze. Do zamiany zaledwie jednej cyfry
+int char_int(char);					//pomocnicze. Do zamiany zaledwie jednej cyfry
 char int_char(int);
-double* str_double(vector <char>, HWND);							//string to double
+double* str_double(vector <char>);							//string to double
 string double_str(double);							// double to string
 
 
